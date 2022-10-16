@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct toyItem {
+struct ToyItem {
     let id: String
     let name: String
     let phone: String

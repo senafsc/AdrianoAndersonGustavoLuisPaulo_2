@@ -23,6 +23,7 @@
 		9766C74528FC895B00C358BF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74428FC895B00C358BF /* FirebaseFirestore */; };
 		9766C74728FC895B00C358BF /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74628FC895B00C358BF /* FirebaseRemoteConfig */; };
 		9766C74928FCAC4D00C358BF /* ToyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C74828FCAC4D00C358BF /* ToyItem.swift */; };
+		9766C75328FCB3C800C358BF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C75228FCB3C800C358BF /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9766C73B28FC520100C358BF /* icon_toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_toy.png; sourceTree = "<group>"; };
 		9766C73D28FC85A000C358BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9766C74828FCAC4D00C358BF /* ToyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyItem.swift; sourceTree = "<group>"; };
+		9766C75228FCB3C800C358BF /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				9766C71B28FC372700C358BF /* AppDelegate.swift */,
 				9766C71D28FC372700C358BF /* SceneDelegate.swift */,
 				9766C71F28FC372700C358BF /* WelcomeViewController.swift */,
+				9766C75228FCB3C800C358BF /* ListTableViewController.swift */,
 				9766C74828FCAC4D00C358BF /* ToyItem.swift */,
 				9766C72128FC372700C358BF /* Main.storyboard */,
 				9766C73D28FC85A000C358BF /* GoogleService-Info.plist */,
@@ -205,6 +208,7 @@
 				9766C72028FC372700C358BF /* WelcomeViewController.swift in Sources */,
 				9766C71C28FC372700C358BF /* AppDelegate.swift in Sources */,
 				9766C71E28FC372700C358BF /* SceneDelegate.swift in Sources */,
+				9766C75328FCB3C800C358BF /* ListTableViewController.swift in Sources */,
 				9766C74928FCAC4D00C358BF /* ToyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
