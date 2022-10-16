@@ -13,6 +13,7 @@
 		9766C72328FC372700C358BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72128FC372700C358BF /* Main.storyboard */; };
 		9766C72528FC372800C358BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72428FC372800C358BF /* Assets.xcassets */; };
 		9766C72828FC372800C358BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72628FC372800C358BF /* LaunchScreen.storyboard */; };
+		9766C73028FC3EC400C358BF /* wallpapper_toys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9766C72428FC372800C358BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9766C72728FC372800C358BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9766C72928FC372800C358BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpapper_toys.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,35 @@
 				9766C71F28FC372700C358BF /* ViewController.swift */,
 				9766C72128FC372700C358BF /* Main.storyboard */,
 				9766C72428FC372800C358BF /* Assets.xcassets */,
+				9766C73528FC422C00C358BF /* Public */,
 				9766C72628FC372800C358BF /* LaunchScreen.storyboard */,
 				9766C72928FC372800C358BF /* Info.plist */,
 			);
 			path = AdrianoAndersonGustavoLuisPaulo;
+			sourceTree = "<group>";
+		};
+		9766C73328FC410800C358BF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9766C73528FC422C00C358BF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				9766C73628FC423400C358BF /* Shared */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		9766C73628FC423400C358BF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9766C73328FC410800C358BF /* images */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9766C73028FC3EC400C358BF /* wallpapper_toys.jpg in Resources */,
 				9766C72828FC372800C358BF /* LaunchScreen.storyboard in Resources */,
 				9766C72528FC372800C358BF /* Assets.xcassets in Resources */,
 				9766C72328FC372700C358BF /* Main.storyboard in Resources */,
