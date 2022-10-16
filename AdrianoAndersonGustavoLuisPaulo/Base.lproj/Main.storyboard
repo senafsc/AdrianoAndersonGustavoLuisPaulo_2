@@ -36,18 +36,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loja do Brinquedo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIp-FT-Ot3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Loja do Brinquedo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIp-FT-Ot3">
                                 <rect key="frame" x="52" y="75" width="311" height="40"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spV-tE-fjf">
-                                <rect key="frame" x="117" y="752" width="180" height="50"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Continuar" buttonSize="large"/>
-                                <connections>
-                                    <segue destination="1br-Go-u1b" kind="show" id="cw5-5f-4zS"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="icon_search.png" id="G7v-4w-mTU">
                                 <rect key="frame" x="23" y="151" width="90" height="110.00000000000009"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -102,13 +95,19 @@
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spV-tE-fjf">
+                                <rect key="frame" x="117" y="758" width="180" height="50"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Continuar" buttonSize="large"/>
+                                <connections>
+                                    <segue destination="1br-Go-u1b" kind="show" id="cw5-5f-4zS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="spV-tE-fjf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dmz-df-M72" secondAttribute="bottom" constant="20" id="FDy-Np-0ww"/>
-                            <constraint firstItem="MIp-FT-Ot3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="TUs-BS-25y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="spV-tE-fjf" secondAttribute="bottom" constant="60" id="W7m-ge-WLg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="spV-tE-fjf" secondAttribute="bottom" constant="30" id="Bah-x7-1Sk"/>
+                            <constraint firstItem="Vzy-bh-Fr9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="MIp-FT-Ot3" secondAttribute="bottom" constant="80" id="bjE-8c-mT0"/>
                             <constraint firstItem="spV-tE-fjf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eF8-Wc-fOd"/>
                             <constraint firstItem="MIp-FT-Ot3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hBG-ym-hwf"/>
                         </constraints>
