@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9766C71C28FC372700C358BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C71B28FC372700C358BF /* AppDelegate.swift */; };
 		9766C71E28FC372700C358BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C71D28FC372700C358BF /* SceneDelegate.swift */; };
-		9766C72028FC372700C358BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C71F28FC372700C358BF /* ViewController.swift */; };
+		9766C72028FC372700C358BF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C71F28FC372700C358BF /* WelcomeViewController.swift */; };
 		9766C72328FC372700C358BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72128FC372700C358BF /* Main.storyboard */; };
 		9766C72528FC372800C358BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72428FC372800C358BF /* Assets.xcassets */; };
 		9766C72828FC372800C358BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72628FC372800C358BF /* LaunchScreen.storyboard */; };
@@ -22,13 +22,14 @@
 		9766C74328FC895B00C358BF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74228FC895B00C358BF /* FirebaseAuth */; };
 		9766C74528FC895B00C358BF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74428FC895B00C358BF /* FirebaseFirestore */; };
 		9766C74728FC895B00C358BF /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74628FC895B00C358BF /* FirebaseRemoteConfig */; };
+		9766C74928FCAC4D00C358BF /* ToyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C74828FCAC4D00C358BF /* ToyItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9766C71828FC372700C358BF /* AdrianoAndersonGustavoLuisPaulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdrianoAndersonGustavoLuisPaulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9766C71B28FC372700C358BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9766C71D28FC372700C358BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9766C71F28FC372700C358BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9766C71F28FC372700C358BF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9766C72228FC372700C358BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9766C72428FC372800C358BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9766C72728FC372800C358BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		9766C73928FC509500C358BF /* icon_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_money.png; sourceTree = "<group>"; };
 		9766C73B28FC520100C358BF /* icon_toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_toy.png; sourceTree = "<group>"; };
 		9766C73D28FC85A000C358BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9766C74828FCAC4D00C358BF /* ToyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 			children = (
 				9766C71B28FC372700C358BF /* AppDelegate.swift */,
 				9766C71D28FC372700C358BF /* SceneDelegate.swift */,
-				9766C71F28FC372700C358BF /* ViewController.swift */,
+				9766C71F28FC372700C358BF /* WelcomeViewController.swift */,
+				9766C74828FCAC4D00C358BF /* ToyItem.swift */,
 				9766C72128FC372700C358BF /* Main.storyboard */,
 				9766C73D28FC85A000C358BF /* GoogleService-Info.plist */,
 				9766C72428FC372800C358BF /* Assets.xcassets */,
@@ -199,9 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9766C72028FC372700C358BF /* ViewController.swift in Sources */,
+				9766C72028FC372700C358BF /* WelcomeViewController.swift in Sources */,
 				9766C71C28FC372700C358BF /* AppDelegate.swift in Sources */,
 				9766C71E28FC372700C358BF /* SceneDelegate.swift in Sources */,
+				9766C74928FCAC4D00C358BF /* ToyItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
