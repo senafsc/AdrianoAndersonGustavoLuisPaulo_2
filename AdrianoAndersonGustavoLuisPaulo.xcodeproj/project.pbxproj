@@ -14,6 +14,9 @@
 		9766C72528FC372800C358BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72428FC372800C358BF /* Assets.xcassets */; };
 		9766C72828FC372800C358BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72628FC372800C358BF /* LaunchScreen.storyboard */; };
 		9766C73028FC3EC400C358BF /* wallpapper_toys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */; };
+		9766C73828FC501D00C358BF /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 9766C73728FC501D00C358BF /* icon_search.png */; };
+		9766C73A28FC509500C358BF /* icon_money.png in Resources */ = {isa = PBXBuildFile; fileRef = 9766C73928FC509500C358BF /* icon_money.png */; };
+		9766C73C28FC520100C358BF /* icon_toy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9766C73B28FC520100C358BF /* icon_toy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9766C72728FC372800C358BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9766C72928FC372800C358BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpapper_toys.jpg; sourceTree = "<group>"; };
+		9766C73728FC501D00C358BF /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
+		9766C73928FC509500C358BF /* icon_money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_money.png; sourceTree = "<group>"; };
+		9766C73B28FC520100C358BF /* icon_toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_toy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 		9766C73328FC410800C358BF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9766C73B28FC520100C358BF /* icon_toy.png */,
+				9766C73728FC501D00C358BF /* icon_search.png */,
+				9766C73928FC509500C358BF /* icon_money.png */,
 				9766C72F28FC3EC400C358BF /* wallpapper_toys.jpg */,
 			);
 			path = images;
@@ -152,10 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9766C73828FC501D00C358BF /* icon_search.png in Resources */,
+				9766C73A28FC509500C358BF /* icon_money.png in Resources */,
 				9766C73028FC3EC400C358BF /* wallpapper_toys.jpg in Resources */,
 				9766C72828FC372800C358BF /* LaunchScreen.storyboard in Resources */,
 				9766C72528FC372800C358BF /* Assets.xcassets in Resources */,
 				9766C72328FC372700C358BF /* Main.storyboard in Resources */,
+				9766C73C28FC520100C358BF /* icon_toy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
