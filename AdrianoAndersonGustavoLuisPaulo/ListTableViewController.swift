@@ -70,6 +70,44 @@ class ListTableViewController: UITableViewController {
         print("toyList_2: \(toysList)")
         tableView.reloadData()
     }
+    
+    private func showAlertForItem(_ item: ToyItem?) {
+        let alert = UIAlertController(title: "Produto", message: "Entre com as informações do produto abaixo", preferredStyle: .alert)
+        
+        alert.addTextField { textField in
+            textField.placeholder = "Nome"
+            textField.text = item?.name
+        }
+        alert.addTextField { textField in
+            textField.placeholder = "Telefone"
+            textField.text = item?.phone
+        }
+        
+        let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+            guard let name = alert.textFields?.first?.text,
+                  let phoneNumber = alert.textFields?.last?.text else {return}
+            
+            let data: [String: String] = [
+                "name": name,
+                "phone": phoneNumber
+            ]
+            
+            if let item = item {
+                //Edição
+                self.firestore.collection(self.collection).document(item.id).updateData(data)
+            } else {
+                //Criação
+                self.firestore.collection(self.collection).addDocument(data: data)
+            }
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        
+        alert.addAction(okAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true, completion: nil)
+    }
 
     // MARK: - Table view data source
 
@@ -94,6 +132,11 @@ class ListTableViewController: UITableViewController {
         print("cell: \(cell)")
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let toyItem = toysList[indexPath.row]
+        showAlertForItem(toyItem)
     }
 
     /*
