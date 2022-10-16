@@ -45,7 +45,7 @@
                                 <rect key="frame" x="23" y="151" width="90" height="110.00000000000009"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="icon_money.png" id="8Zp-yU-k7T">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="icon_kid.jpg" id="8Zp-yU-k7T">
                                 <rect key="frame" x="23" y="301" width="90" height="110.00000000000007"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -67,15 +67,15 @@
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Ganhe dinheiro" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AVK-el-1FY">
-                                <rect key="frame" x="133" y="301" width="229.99999999999994" height="20.000000000000057"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Ajude crianças carentes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AVK-el-1FY">
+                                <rect key="frame" x="133" y="301" width="229.99999999999994" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Cadastre seus brinquedos antigos e ganhe dinheiro vendendo seus artigos." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dx6-rE-Zzb">
-                                <rect key="frame" x="133" y="321" width="229.99999999999994" height="90.000000000000014"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Seus brinquedos antigos ajudarão crianças carentes a ter uma infância mais alegre." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dx6-rE-Zzb">
+                                <rect key="frame" x="133" y="321" width="230" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
@@ -158,7 +158,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="twk-6A-sqB">
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="cd4-ju-Mf8"/>
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="cd4-ju-Mf8">
+                            <connections>
+                                <action selector="addItem:" destination="aVn-zd-FSa" id="Jvd-Nl-8DY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="um5-UE-qfH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -167,7 +171,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_money.png" width="384" height="384"/>
+        <image name="icon_kid.jpg" width="518.335205078125" height="518.335205078125"/>
         <image name="icon_search.png" width="512" height="512"/>
         <image name="icon_toy.png" width="512" height="512"/>
         <image name="plus" catalog="system" width="128" height="113"/>

@@ -75,11 +75,11 @@ class ListTableViewController: UITableViewController {
         let alert = UIAlertController(title: "Produto", message: "Entre com as informações do produto abaixo", preferredStyle: .alert)
         
         alert.addTextField { textField in
-            textField.placeholder = "Nome"
+            textField.placeholder = "Nome do brinquedo"
             textField.text = item?.name
         }
         alert.addTextField { textField in
-            textField.placeholder = "Telefone"
+            textField.placeholder = "Telefone do doador"
             textField.text = item?.phone
         }
         
@@ -146,29 +146,9 @@ class ListTableViewController: UITableViewController {
         }
     }
 
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+    //MARK: -IBActions
+    @IBAction func addItem(_ sender: Any) {
+        showAlertForItem(nil)
     }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -24,6 +24,7 @@
 		9766C74728FC895B00C358BF /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 9766C74628FC895B00C358BF /* FirebaseRemoteConfig */; };
 		9766C74928FCAC4D00C358BF /* ToyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C74828FCAC4D00C358BF /* ToyItem.swift */; };
 		9766C75328FCB3C800C358BF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9766C75228FCB3C800C358BF /* ListTableViewController.swift */; };
+		9766C75528FCC6B800C358BF /* icon_kid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9766C75428FCC6B800C358BF /* icon_kid.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		9766C73D28FC85A000C358BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9766C74828FCAC4D00C358BF /* ToyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyItem.swift; sourceTree = "<group>"; };
 		9766C75228FCB3C800C358BF /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9766C75428FCC6B800C358BF /* icon_kid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_kid.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		9766C73328FC410800C358BF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9766C75428FCC6B800C358BF /* icon_kid.jpg */,
 				9766C73B28FC520100C358BF /* icon_toy.png */,
 				9766C73728FC501D00C358BF /* icon_search.png */,
 				9766C73928FC509500C358BF /* icon_money.png */,
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9766C75528FCC6B800C358BF /* icon_kid.jpg in Resources */,
 				9766C73828FC501D00C358BF /* icon_search.png in Resources */,
 				9766C73E28FC85A000C358BF /* GoogleService-Info.plist in Resources */,
 				9766C73A28FC509500C358BF /* icon_money.png in Resources */,
